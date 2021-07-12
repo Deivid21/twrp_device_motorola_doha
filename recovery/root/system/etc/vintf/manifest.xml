@@ -84,16 +84,6 @@
         </interface>
         <fqname>@1.0::IKeystore/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>motorola.hardware.tcmd</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IMotTcmd</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IMotTcmd/default</fqname>
-    </hal>
     <hal format="native">
         <name>netutils-wrapper</name>
         <transport></transport>

@@ -59,15 +59,9 @@ PRODUCT_PACKAGES += \
     bootctrl.$(PRODUCT_PLATFORM) \
     bootctrl.$(PRODUCT_PLATFORM).recovery
 
-PRODUCT_HOST_PACKAGES += \
-    libandroidicu
-
 # Apex libraries
 PRODUCT_HOST_PACKAGES += \
     libandroidicu
-
-# Dynamic partitions
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # qcom standard decryption
 PRODUCT_PACKAGES += \

@@ -35,7 +35,6 @@ on fs
 
 on property:ro.crypto.type=file
     setprop ro.crypto.state encrypted
-    setprop twrp.apex.loaded true
 
 service load_modules /system/bin/load_modules.sh
     oneshot

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_sofiar.mk
+    $(LOCAL_DIR)/omni_doha.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_sofiar-user \
-    omni_sofiar-userdebug \
-    omni_sofiar-eng
+    omni_doha-user \
+    omni_doha-userdebug \
+    omni_doha-eng
